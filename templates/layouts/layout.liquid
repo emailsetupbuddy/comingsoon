@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}Email Setup Buddy - Launching Soon{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+        {{ "bootstrap.css" | asset_url | stylesheet_tag }}
+        <style>
+            body {
+                padding-top: 50px;
+            }
+            .starter-template {
+                padding: 40px 15px;
+            }
+        </style>
+        <!-- TODO: Complete this project :) -->
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        {{ "bootstrap.js" | asset_url | script_tag }}
+    </body>
+</html>
